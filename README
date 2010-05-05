@@ -1,0 +1,23 @@
+=== Description
+
+Language Description files for gedit (gtksourceview-2.0) for the great 
+php-based Dokuwiki.
+
+Works great with the Firefox extension It's all text which let you open
+any textareas (textboxes) in an editor of your choice.
+
+Tested under Ubuntu 9.10 and 10.04
+
+
+=== INSTALL
+
+
+git clone git://github.com/zealot128/Gedit-Dokuwiki-Syntax.git
+cd Gedit-Dokuwiki-Syntax
+cp dokuwiki.lang /usr/share/gtksourceview-2.0/language-specs
+
+
+
+I used a ruby-File to generate the xml because I think the ruby builder Syntax is
+quite nice.
+Changes/Improvements welcome.
